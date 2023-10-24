@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KubeSphere Marketplace</title>
+    <link>/v1.0/</link>
+    <description>Recent content on KubeSphere Marketplace</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v1.0/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

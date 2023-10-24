@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>服务商入驻 on KubeSphere Marketplace</title>
+    <link>/v1.0/03-provider-guide/01-serviceprovider/</link>
+    <description>Recent content in 服务商入驻 on KubeSphere Marketplace</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v1.0/03-provider-guide/01-serviceprovider/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>入驻条件</title>
+      <link>/v1.0/03-provider-guide/01-serviceprovider/01-prerequisite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v1.0/03-provider-guide/01-serviceprovider/01-prerequisite/</guid>
+      <description>若想要在 KubeSphere Marketplace 发布扩展组件，需要入驻成为 KubeSphere Marketplace 的服务商。服务商可以是企业开发者，也可以是个人开发者。
+服务商入驻 KubeSphere Marketplace 需要满足入驻条件，并通过服务商认证的审核，再签署相关的合约（若有）。详细内容如下。
+入驻条件 成为 KubeSphere Marketplace 服务供应商，个人开发者和企业开发者分别需要符合以下条件：
+个人开发者 有效的 KubeSphere Cloud 账号。
+通过青云实名认证。
+登记服务信息：如实登记服务人员、服务时间、服务质保期等。
+缴纳入驻保证金：根据青云发布的保证金规则缴纳入驻保证金。
+签署《KubeSphere Marketplace 服务商入驻协议》，并按照协议约束的条款开展业务合作。
+接受 KubeSphere Marketplace 其他相关协议及管理规范。
+企业开发者 有效的 KubeSphere Cloud 账号。
+通过青云实名认证。
+登记服务信息：如实登记服务人员、服务时间、服务质保期等。
+缴纳入驻保证金：根据青云发布的保证金规则缴纳入驻保证金。
+签署《KubeSphere Marketplace 服务商入驻协议》，以及与青云另行约定的线下协议（若有），并按照协议约束的条款开展业务合作。
+接受 KubeSphere Marketplace 其他相关协议及管理规范。
+符合国家相关法律、法规规定，拥有正规的公司资质，具有 10 人以上的技术及客服团队。
+企业成立至少 1 年以上，且注册资金 50 万元以上。
+具有专业的技术及售后团队支持，可提供不少于 6*10 小时的客服在线服务。
+拥有有效的软件著作权证书（ISV 类）或销售相关许可证书。
+认证信息 提交服务商入驻申请时，企业开发者还需要提供以下认证信息。
+《企业法人营业执照》副本及企业法人身份证复印件。
+实际经营地（若有），联系人姓名及其联系电话、邮箱，服务商网址链接。</description>
+    </item>
+    
+    <item>
+      <title>入驻流程</title>
+      <link>/v1.0/03-provider-guide/01-serviceprovider/02-process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v1.0/03-provider-guide/01-serviceprovider/02-process/</guid>
+      <description>本节介绍入驻 KubeSphere Marketplace 成为服务商的详细流程。
+前提条件 入驻 KubeSphere Marketplace 需要满足相应的条件，详细说明请参考入驻条件，请仔细阅读并提前做好准备。
+操作步骤 访问 KubeSphere Marketplace 页面。
+点击服务商入驻。
+登录 KubeSphere 云账号。
+阅读《KubeSphere Marketplace 服务商入驻协议》和《KubeSphere Marketplace 服务商管理规范》，点击同意并提交。
+提交成功后，耐心等待 KubeSphere 生态合作经理与您联系。</description>
+    </item>
+    
+    <item>
+      <title>保证金规则及缴纳方式</title>
+      <link>/v1.0/03-provider-guide/01-serviceprovider/03-deposit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v1.0/03-provider-guide/01-serviceprovider/03-deposit/</guid>
+      <description>为了更好地保障 KubeSphere 用户的权益，提升 KubeSphere Marketplace 服务商的服务水平和扩展组件质量，在发布扩展组件前，服务商需缴纳保证金。如果服务商未缴纳保证金，将无法进行扩展组件发布及收益提现等系列操作。
+收费标准 保证金是指服务商用以担保其在与 KubeSphere Marketplace 合作期内，将遵守 KubeSphere Marketplace 相关协议及 KubeSphere Marketplace 管理规范的相关约定，为用户提供安全、合法的产品，而向 KubeSphere 缴纳的一定数额的款项，金额为 5000 元。KubeSphere 保留后续根据市场条件等，调整保证金金额的权利。
+缴纳方式 服务商需通过银行转账的方式缴纳保证金。以下是收款账户信息：
+户名：北京青云科技股份有限公司
+账号：0200001109024543164
+开户行：工行北京安定门支行
+备注 转账时，请备注“公司名称-KubeSphere Marketplace 保证金”。
+激励政策 我们制定了两项激励政策，以鼓励更多的服务商加入 KubeSphere Marketplace：
+激励政策一：凡是在 2023 年入驻 KubeSphere Marketplace 的服务商，自其扩展组件上架 KubeSphere Marketplace 之日起一年内享受保证金减免政策，即该期间内可不予缴纳保证金（5000 元），一年期限届满后的 5 日内缴纳保证金。
+激励政策二：我们取消了对于提供免费或符合开源协议的软件服务化的开发者，以及规模不超过 10 人的微型企业的保证金要求，旨在扩大服务商的参与范围，为 KubeSphere 的用户提供更加丰富的选择。
+其他说明 服务商在合作期间没有违反 KubeSphere Marketplace 管理规范，合作终止后将会退回保证金。如无特殊情况，保证金会在所有产品下架后的三个月后退回。</description>
+    </item>
+    
+    <item>
+      <title>平台服务费规则及结算方式</title>
+      <link>/v1.0/03-provider-guide/01-serviceprovider/04-service-charge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v1.0/03-provider-guide/01-serviceprovider/04-service-charge/</guid>
+      <description>为了提升 KubeSphere Marketplace 服务商积极性，促进 KubeSphere Marketplace 业务的健康发展，依据 KubeSphere Marketplace 服务商入驻协议及服务商管理规范的相关规定，平台将向服务商收取一定金额的服务费（“平台服务费”）。
+收费标准 平台服务费是 KubeSphere 基于其为服务商所提供的平台与销售服务，有权向服务商收取一定金额的服务费用，该费用按服务商在 KubeSphere Marketplace 所产生实际订单交易金额的 10% 收取。
+结算方式 服务商可以于每个自然月的前十个工作日后通过服务商的 KubeSphere Marketplace 账户进行上月收入的提现申请操作，并按照提现申请金额开具发票，KubeSphere 在收到服务商寄送发票后将对应的收入金额支付至服务商的收款账户。提现金额应不少于 10000 元，如单月收入不足 10000 元，则提现范围须大于等于 2 个月。服务商提现时不能自行指定提现金额，须按照账户每月实际收入进行提现。
+激励政策 以上平台服务费规则将于北京时间 2024 年 1 月 1 日开始执行。在此之前（即北京时间 2023 年 12 月 31 日之前）入驻 KubeSphere Marketplace 的服务商第一年内前 20 万元成交额，平台可不收取该成交额的平台服务费。
+备注 仅限线上部分，KubeSphere 私有化部署版不参与该激励。</description>
+    </item>
+    
+  </channel>
+</rss>
