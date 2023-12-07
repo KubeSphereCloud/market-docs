@@ -1,0 +1,622 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+
+<meta name="keywords" content="[KubeSphere Marketplace, 扩展市场]">
+
+
+<meta name="description" content="这是 KubeSphere Marketplace 文档页面">
+
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+<title>KubeSphere Marketplace 简介 - KubeSphere Marketplace</title>
+<link href="/css/bulma.css" rel="stylesheet">
+<link href="/css/bulma-tooltip.min.css" rel="stylesheet">
+<link href="/css/atom-one-light.css" rel="stylesheet" />
+<link href="/css/magnific-popup.css" rel="stylesheet" />
+
+
+<link href="/scss/main.min.3f975d466d577a77f0f174d270294cab5515450a1619ced59c3e7370b108aeb6.css" rel="stylesheet" integrity="sha256-P5ddRm1Xenfw8XTScClMq1UVRQoWGc7VnD5zcLEIrrY=">
+
+<script src="/js/jquery-2.2.4.js"></script>
+<body
+        class="root   "
+        style=""
+        ><header>
+  <nav class="navbar">
+    
+      <a href="/" class="navbar-logo-wrapper">
+        <img class="navbar-logo" src="/images/qingcloud-logo.svg" />
+        <div class="navbar-split navbar-left-split">|</div>
+        <div class="navbar-logo-text">KubeSphere Marketplace</div>
+      </a>
+    
+    <div class="navbar-nav">
+      <div
+        class="navbar-nav-item navbar-nav-version "
+        style="">
+        
+        <div class="dropdown-trigger">
+          <span class="project-version">
+            v1.0
+          </span>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+    <div class="search navbar-search">
+      <form action="/v1.0/search/" method="GET">
+        <div class="control has-icons-left has-icons-right docs-search-input">
+          <span class="icon is-left">
+            <img src="/images/icons/magnifier_duotone.svg" />
+          </span>
+          <input
+            class="input"
+            name="q"
+            type="input"
+            placeholder="请输入关键字快速获取帮助"
+            autocomplete="off"
+          />
+          <span class="icon is-right"> </span>
+        </div>
+        <img class="clear-search-input" src="/images/icons/close_duotone.svg" />
+      </form>
+      <div class="search-result navbar-search-result">
+        <div class="search-result-loading"></div>
+        <div class="search-result-content"></div>
+        <div class="search-result-none">
+          没有找到搜索结果， 请更换关键词重新搜索
+        </div>
+      </div>
+    </div>
+    
+  </nav>
+</header><script id="search-result-total-template" type="text/x-js-template">
+  <div class="search-result-total">
+    共为您找到 ${count} 个结果
+  </div>
+</script>
+
+<script id="search-result-item-template" type="text/x-js-template">
+  <div class="search-result-content-item">
+    <div class="search-result-content-item-title">
+      <a href="${href}">${title}</a>
+    </div>
+    <div class="search-result-content-item-content">
+      ${content}
+    </div>
+    <div class="search-result-content-item-ref">
+      <ul class="content-breadcrumb">
+      </ul>
+    </div>
+  </div>
+</div>
+</script>
+
+<script id="search-breadcrumb-template" type="text/x-js-template">
+  <li class="icon-slash_fill">
+    <a href="${href}">${title}</a>
+  </li>
+</script>
+
+<script id="search-result-total-template" type="text/x-js-template">
+  <div class="search-result-total">
+    共为您找到 ${count} 个结果
+  </div>
+</script>
+<script id="search-result-page-template" type="text/x-js-template">
+  <nav class="search-result-pagination pagination is-centered">
+    <a class="pagination-previous icon-chevron_left_fill"></a>
+    <a class="pagination-next icon-chevron_right_fill"></a>
+    <ul class="pagination-list">
+    </ul>
+  </nav>
+</script>
+<div class="container">
+
+  
+
+
+  
+    
+  
+
+
+<aside class="sidebar-wrapper">
+  <div class="sidebar-drag"></div>
+  <div class="sidebar">
+    
+      <div class="sidebar-title" >
+        <a href="/v1.0/">
+          
+            KubeSphere Marketplace
+        </a>
+        
+      </div>
+      
+    
+    <nav class="sidebar-menu">
+      
+        
+        <ul>
+  
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a >动态与公告</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          
+          <li class="sidebar-item active current">
+            <a href="/v1.0/news/product_news/">产品动态</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a >产品简介</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          
+          <li class="sidebar-item  ">
+            <a href="/v1.0/02-intro/introduction/">KubeSphere Marketplace 简介</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a >服务商操作指南</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item active ">
+            <a >服务商入驻</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_up_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          
+          <li class="sidebar-item  ">
+            <a href="/v1.0/03-provider-guide/01-serviceprovider/01-prerequisite/">入驻条件</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          
+          <li class="sidebar-item  ">
+            <a href="/v1.0/03-provider-guide/01-serviceprovider/02-process/">入驻流程</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          
+          <li class="sidebar-item  ">
+            <a href="/v1.0/03-provider-guide/01-serviceprovider/03-deposit/">保证金规则及缴纳方式</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          
+          <li class="sidebar-item active current">
+            <a href="/v1.0/03-provider-guide/01-serviceprovider/04-service-charge/">平台服务费规则及结算方式</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/v1.0/03-provider-guide/02-develop-extensions/">扩展组件开发</a>
+            
+            
+            
+          </li>
+          
+          <ul>
+  
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/v1.0/03-provider-guide/03-publish-extensions/">扩展组件上架</a>
+            
+            
+            
+          </li>
+          
+          <ul>
+  
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/v1.0/03-provider-guide/04-operation/">扩展组件运营</a>
+            
+            
+            
+          </li>
+          
+          <ul>
+  
+  
+</ul>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+</ul>
+      
+    </nav>
+
+  </div>
+</aside>
+<div class="content-card-wrapper">
+  <div class="content-card">
+    <div class="content-wrapper"><ul class="content-breadcrumb">
+      <li class="icon-slash_fill"><a href="/v1.0" data-url="/v1.0">KubeSphere Marketplace</a></li>
+        
+        <li class="icon-slash_fill"><a href="/v1.0/02-intro/introduction/" data-url="/v1.0/02-intro">产品简介</a></li>
+      <li class="icon-slash_fill"><a href="/v1.0/02-intro/introduction" data-url="/v1.0/02-intro/introduction">KubeSphere Marketplace 简介</a></li></ul><div class="post-wrapper"><div class="post">
+  <h1 class="post-title">
+    KubeSphere Marketplace 简介</h1>
+  <div class="post-info">
+    <div class="post-date">
+      更新时间：2023-11-07 08:45:50
+    </div>
+    
+    
+    
+    
+    
+    
+    
+      <div
+        class="tag post-tag export-pdf has-tooltip-top has-tooltip-arrow"
+        data-tooltip="下载范围：所属一级目录的全部内容"
+        data-url="/v1.0/02-intro">
+        <span class="icon-format_pdf_2_fill"></span>
+        PDF
+      </div>
+      
+    
+  </div><div class="post-menu">
+  <div class="post-menu-title">本页目录</div>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#_为什么推出_kubesphere_marketplace">为什么推出 KubeSphere Marketplace</a></li>
+    <li><a href="#_服务商价值">服务商价值</a></li>
+    <li><a href="#_用户价值">用户价值</a></li>
+    <li><a href="#_产品计划">产品计划</a></li>
+  </ul>
+</nav>
+</div><div class="post-content">
+    
+      
+      
+<div class="sect1">
+<h2 id="_为什么推出_kubesphere_marketplace">为什么推出 KubeSphere Marketplace</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>在 KubeSphere 企业版 4.0 中，我们引入了全新的 KubeSphere 产品内核—— KubeSphere LuBan。KubeSphere Luban 是一个分布式的云原生可扩展开放架构，为各种扩展组件提供了可热插拔的微内核。基于 KubeSphere LuBan，独立软件开发商（ISV）和开源项目可以以较低的成本将其产品或项目以扩展组件的方式无缝融入到 KubeSphere 控制台中，并独立维护版本，真正实现即插即用的应用级云原生操作系统。</p>
+</div>
+<div class="paragraph">
+<p>为了更好地推动各种扩展组件的在线分发、商业售卖和市场运营，KubeSphere 推出了云原生应用扩展市场——KubeSphere Marketplace，为云原生扩展组件的线上分发和商业化运营提供了重要的平台和机制。扩展市场涵盖了人工智能/机器学习、数据库、监控与日志、CI/CD、网络、安全、存储、流式计算与消息队列等多个领域的扩展组件。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_服务商价值">服务商价值</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>在 KubeSphere Marketplace 上，服务商可以将其产品或项目以扩展组件的形式进行发布、售卖、管理和运营。通过在线订阅、技术支持、私有化交付等多种方式获取持续的商业收入，驱动业务增长。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_用户价值">用户价值</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>在 KubeSphere Marketplace 上，用户可以根据自己的需求选择并购买 KubeSphere 及合作伙伴提供的多种扩展组件。通过组合这些组件，用户可以像搭积木一样定制专属的云原生操作系统，以满足开发和运维云原生应用的个性化需求。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_产品计划">产品计划</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>目前，KubeSphere Marketplace 中文站已于 2023 年 8 月上线，并已发布多款扩展组件。KubeSphere Marketplace 国际站计划在 2024 年初上线。</p>
+</div>
+<div class="paragraph">
+<p>接下来，根据 <a href="https://kubesphere.cloud/marketplace/roadmap/">KubeSphere 扩展组件开发计划</a>，KubeSphere Marketplace 将陆续发布数十款扩展组件，来源如下：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>KubeSphere 官方：预计在本年度内发布 20 款官方扩展组件。</p>
+</li>
+<li>
+<p>软件开发商：已与多家技术公司达成合作，预计在本年度内发布 8 款第三方扩展组件。</p>
+</li>
+<li>
+<p>社区开发者：开源社区开发者将贡献若干扩展组件。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+    
+
+  </div>
+  <div class="post-footer">
+    <div class="post-prev">
+    </div>
+    <div class="post-next">
+    </div>
+  </div>
+  <div class="post-back-to-top">
+    <span class="icon-up_3_fill"></span>
+  </div>
+</div>
+<div class="post-placeholder"><div class="post-menu">
+  <div class="post-menu-title">本页目录</div>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#_为什么推出_kubesphere_marketplace">为什么推出 KubeSphere Marketplace</a></li>
+    <li><a href="#_服务商价值">服务商价值</a></li>
+    <li><a href="#_用户价值">用户价值</a></li>
+    <li><a href="#_产品计划">产品计划</a></li>
+  </ul>
+</nav>
+</div></div>
+      </div>
+    </div>
+  </div>
+</div></div>
+    </body><script src="/js/bootstrap.min.js"></script>
+<script src="/js/autocomplete/jquery.autocomplete.js"></script>
+<script src="/js/copy-to-clipboard.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script src="/js/jquery.tmpl.min.js"></script>
+<script src="/js/jquery.magnific-popup.min.js"></script>
+<script src="/js/search/jquery.mark.min.js"></script>
+
+<script type="text/javascript" src="/js/common.428b8a7f426567136e0501d49705f10dac2e4539d10c2f396d7c9ee45df1469eaa38e983928589e0e35ed30c1732ddbcda694ac0928ffffffee76b4a0017adf2.js" integrity="sha512-QouKf0JlZxNuBQHUlwXxDawuRTnRDC85bXye5F3xRp6qOOmDkoWJ4ONe0wwXMt282mlKwJKP///&#43;52tKABet8g=="></script>
+
+<script type="text/javascript" src="/js/search.d8001c3e1b66b9a0b48e0c23ad0dbfc0906f194f8925ae78a9900b960679cfa7e41cebd9efd654f84535d02cbce7c4971f226e6f07288c26c3c4560c36d7655b.js"></script>
+<script>
+  $(function() {
+    
+    hljs.highlightAll();
+    
+    $.each($('.post-content .imageblock img'), function () {
+      $(this).attr('data-mfp-src', $(this).attr('src'));
+    });
+    $('.post-content').magnificPopup({
+      disableOn: function () {
+        if ($(window).width() < 600) {
+          return false;
+        }
+        return true;
+      },
+      delegate: '.imageblock img',
+      type: 'image',
+      gallery: {
+        enabled: true,
+      },
+    });
+  });
+</script>
+</html>
