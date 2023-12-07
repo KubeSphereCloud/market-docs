@@ -1,38 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>KubeSphere Marketplace</title>
-    <link>/</link>
-    <description>Recent content on KubeSphere Marketplace</description>
+    <title>服务商入驻 on KubeSphere Marketplace</title>
+    <link>/v1.0/03-provider-guide/01-serviceprovider/</link>
+    <description>Recent content in 服务商入驻 on KubeSphere Marketplace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>KubeSphere Marketplace 简介</title>
-      <link>/v1.0/02-intro/introduction/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/v1.0/02-intro/introduction/</guid>
-      <description>为什么推出 KubeSphere Marketplace 在 KubeSphere 企业版 4.0 中，我们引入了全新的 KubeSphere 产品内核—— KubeSphere LuBan。KubeSphere Luban 是一个分布式的云原生可扩展开放架构，为各种扩展组件提供了可热插拔的微内核。基于 KubeSphere LuBan，独立软件开发商（ISV）和开源项目可以以较低的成本将其产品或项目以扩展组件的方式无缝融入到 KubeSphere 控制台中，并独立维护版本，真正实现即插即用的应用级云原生操作系统。
-为了更好地推动各种扩展组件的在线分发、商业售卖和市场运营，KubeSphere 推出了云原生应用扩展市场——KubeSphere Marketplace，为云原生扩展组件的线上分发和商业化运营提供了重要的平台和机制。扩展市场涵盖了人工智能/机器学习、数据库、监控与日志、CI/CD、网络、安全、存储、流式计算与消息队列等多个领域的扩展组件。
-服务商价值 在 KubeSphere Marketplace 上，服务商可以将其产品或项目以扩展组件的形式进行发布、售卖、管理和运营。通过在线订阅、技术支持、私有化交付等多种方式获取持续的商业收入，驱动业务增长。
-用户价值 在 KubeSphere Marketplace 上，用户可以根据自己的需求选择并购买 KubeSphere 及合作伙伴提供的多种扩展组件。通过组合这些组件，用户可以像搭积木一样定制专属的云原生操作系统，以满足开发和运维云原生应用的个性化需求。
-产品计划 目前，KubeSphere Marketplace 中文站已于 2023 年 8 月上线，并已发布多款扩展组件。KubeSphere Marketplace 国际站计划在 2024 年初上线。
-接下来，根据 KubeSphere 扩展组件开发计划，KubeSphere Marketplace 将陆续发布数十款扩展组件，来源如下：
-KubeSphere 官方：预计在本年度内发布 20 款官方扩展组件。
-软件开发商：已与多家技术公司达成合作，预计在本年度内发布 8 款第三方扩展组件。
-社区开发者：开源社区开发者将贡献若干扩展组件。</description>
-    </item>
-    
-    <item>
-      <title>产品动态</title>
-      <link>/v1.0/news/product_news/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/v1.0/news/product_news/</guid>
-      <description></description>
-    </item>
-    
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v1.0/03-provider-guide/01-serviceprovider/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>入驻条件</title>
       <link>/v1.0/03-provider-guide/01-serviceprovider/01-prerequisite/</link>
