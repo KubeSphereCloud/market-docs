@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>动态与公告 on KubeSphere Marketplace</title>
-    <link>//localhost:1313/v1.0/news/</link>
+    <link>/v1.0/news/</link>
     <description>Recent content in 动态与公告 on KubeSphere Marketplace</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="//localhost:1313/v1.0/news/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>©2022 QingCloud, Inc. All rights reserved</copyright><atom:link href="/v1.0/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>产品动态</title>
-      <link>//localhost:1313/v1.0/news/product_news/</link>
+      <link>/v1.0/news/product_news/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/v1.0/news/product_news/</guid>
+      <guid>/v1.0/news/product_news/</guid>
       <description></description>
     </item>
     
