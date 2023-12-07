@@ -2,47 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/v1.0/</loc>
-    <lastmod>2023-10-24T09:35:47+08:00</lastmod>
+    <loc>//localhost:1313/v1.0/</loc>
+    <lastmod>2023-12-07T15:50:37+08:00</lastmod>
   </url><url>
-    <loc>/v1.0/02-intro/introduction/</loc>
-    <lastmod>2023-10-24T09:35:47+08:00</lastmod>
+    <loc>//localhost:1313/v1.0/02-intro/introduction/</loc>
+    <lastmod>2023-11-07T16:45:50+08:00</lastmod>
   </url><url>
-    <loc>/v1.0/news/product_news/</loc>
-    <lastmod>2023-10-24T09:35:47+08:00</lastmod>
+    <loc>//localhost:1313/v1.0/news/product_news/</loc>
+    <lastmod>2023-12-07T15:59:33+08:00</lastmod>
   </url><url>
-    <loc>/v1.0/news/</loc>
-    <lastmod>2023-10-24T09:35:47+08:00</lastmod>
+    <loc>//localhost:1313/v1.0/news/</loc>
+    <lastmod>2023-11-07T16:45:50+08:00</lastmod>
   </url><url>
-    <loc>/v1.0/03-provider-guide/01-serviceprovider/</loc>
-    <lastmod>2023-10-24T09:35:47+08:00</lastmod>
+    <loc>//localhost:1313/v1.0/03-provider-guide/01-serviceprovider/</loc>
+    <lastmod>2023-11-07T16:45:50+08:00</lastmod>
   </url><url>
-    <loc>/v1.0/03-provider-guide/01-serviceprovider/01-prerequisite/</loc>
-    <lastmod>2023-10-24T09:35:47+08:00</lastmod>
+    <loc>//localhost:1313/v1.0/03-provider-guide/01-serviceprovider/01-prerequisite/</loc>
+    <lastmod>2023-11-07T16:45:50+08:00</lastmod>
   </url><url>
-    <loc>/v1.0/02-intro/</loc>
-    <lastmod>2023-10-24T09:35:47+08:00</lastmod>
+    <loc>//localhost:1313/v1.0/02-intro/</loc>
+    <lastmod>2023-11-07T16:45:50+08:00</lastmod>
   </url><url>
-    <loc>/v1.0/03-provider-guide/02-develop-extensions/</loc>
-    <lastmod>2023-10-24T09:35:47+08:00</lastmod>
+    <loc>//localhost:1313/v1.0/03-provider-guide/02-develop-extensions/</loc>
+    <lastmod>2023-11-07T16:45:50+08:00</lastmod>
   </url><url>
-    <loc>/v1.0/03-provider-guide/01-serviceprovider/02-process/</loc>
-    <lastmod>2023-10-24T09:35:47+08:00</lastmod>
+    <loc>//localhost:1313/v1.0/03-provider-guide/01-serviceprovider/02-process/</loc>
+    <lastmod>2023-11-07T16:45:50+08:00</lastmod>
   </url><url>
-    <loc>/v1.0/03-provider-guide/01-serviceprovider/03-deposit/</loc>
-    <lastmod>2023-10-24T09:35:47+08:00</lastmod>
+    <loc>//localhost:1313/v1.0/03-provider-guide/01-serviceprovider/03-deposit/</loc>
+    <lastmod>2023-11-07T16:45:50+08:00</lastmod>
   </url><url>
-    <loc>/v1.0/03-provider-guide/</loc>
-    <lastmod>2023-10-24T09:35:47+08:00</lastmod>
+    <loc>//localhost:1313/v1.0/03-provider-guide/</loc>
+    <lastmod>2023-12-01T16:13:49+08:00</lastmod>
   </url><url>
-    <loc>/v1.0/03-provider-guide/01-serviceprovider/04-service-charge/</loc>
-    <lastmod>2023-10-24T09:35:47+08:00</lastmod>
+    <loc>//localhost:1313/v1.0/03-provider-guide/03-publish-extensions/</loc>
+    <lastmod>2023-12-07T14:49:21+08:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/v1.0/03-provider-guide/04-operation/</loc>
+    <lastmod>2023-12-07T11:25:03+08:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2023-10-24T09:35:47+08:00</lastmod>
+    <loc>//localhost:1313/v1.0/03-provider-guide/01-serviceprovider/04-service-charge/</loc>
+    <lastmod>2023-12-07T15:46:39+08:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>//localhost:1313/categories/</loc>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2023-12-07T15:50:37+08:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>
