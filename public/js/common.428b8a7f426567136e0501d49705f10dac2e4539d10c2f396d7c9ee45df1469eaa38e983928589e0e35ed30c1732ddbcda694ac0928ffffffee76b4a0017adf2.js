@@ -473,6 +473,20 @@ $(function () {
     downloadFile('/pdf' + url + '/', title + '.pdf')
   });
 
+  $('.post-tag.export-word').on('click', function (e) {
+    e.stopPropagation();
+    var url = $(this).attr('data-url');
+    var title = $(`.content-breadcrumb a[data-url="${url}"]`).text().trim();
+    downloadFile('/docx' + url + '/', title + '.docx')
+  });
+
+  $('.section-tag.export-word').on('click', function (e) {
+    e.stopPropagation();
+    var url = $(this).attr('data-url');
+    var title = $(this).attr('data-title');
+    downloadFile('/docx' + url + '/', title + '.docx')
+  });
+
   // 处理 searchPageHome
   handleSearchHomeSidebar();
 

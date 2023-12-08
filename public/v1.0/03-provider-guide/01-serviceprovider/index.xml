@@ -78,7 +78,7 @@
       
       <guid>/v1.0/03-provider-guide/01-serviceprovider/04-service-charge/</guid>
       <description>为了提升 KubeSphere Marketplace 服务商积极性，促进 KubeSphere Marketplace 业务的健康发展，依据 KubeSphere Marketplace 服务商入驻协议及服务商管理规范的相关规定，平台将向服务商收取一定金额的服务费（“平台服务费”）。
-收费标准 平台服务费是 KubeSphere 基于其为服务商所提供的平台与销售服务，有权向服务商收取一定金额的服务费用，该费用按服务商在 KubeSphere Marketplace 所产生实际订单交易金额的 10% 收取。
+收费标准 平台服务费是 KubeSphere 基于其为服务商所提供的平台与销售服务，有权向服务商收取一定金额的服务费用，该费用按服务商在 KubeSphere Marketplace 所产生实际订单交易金额的 15% 收取。
 结算方式 服务商可以于每个自然月的前十个工作日后通过服务商的 KubeSphere Marketplace 账户进行上月收入的提现申请操作，并按照提现申请金额开具发票，KubeSphere 在收到服务商寄送发票后将对应的收入金额支付至服务商的收款账户。提现金额应不少于 10000 元，如单月收入不足 10000 元，则提现范围须大于等于 2 个月。服务商提现时不能自行指定提现金额，须按照账户每月实际收入进行提现。
 激励政策 以上平台服务费规则将于北京时间 2024 年 1 月 1 日开始执行。在此之前（即北京时间 2023 年 12 月 31 日之前）入驻 KubeSphere Marketplace 的服务商第一年内前 20 万元成交额，平台可不收取该成交额的平台服务费。
 备注 仅限线上部分，KubeSphere 私有化部署版不参与该激励。</description>
