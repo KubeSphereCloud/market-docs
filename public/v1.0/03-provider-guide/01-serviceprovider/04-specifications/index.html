@@ -1,0 +1,1276 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+
+<meta name="keywords" content="云计算,青云,QingCloud,文档,KubeSphere 企业版, KubeSphere Marketplace, 扩展市场">
+
+
+<meta name="description" content="这是 KubeSphere Marketplace 文档页面">
+
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+<title>服务商管理规范 - KubeSphere Marketplace</title>
+<link href="/css/bulma.css" rel="stylesheet">
+<link href="/css/bulma-tooltip.min.css" rel="stylesheet">
+<link href="/css/atom-one-light.css" rel="stylesheet" />
+<link href="/css/magnific-popup.css" rel="stylesheet" />
+
+
+<link href="/scss/main.min.3f975d466d577a77f0f174d270294cab5515450a1619ced59c3e7370b108aeb6.css" rel="stylesheet" integrity="sha256-P5ddRm1Xenfw8XTScClMq1UVRQoWGc7VnD5zcLEIrrY=">
+
+<script src="/js/jquery-2.2.4.js"></script>
+<body
+        class="root   "
+        style=""
+        ><header>
+  <nav class="navbar">
+    
+      <a href="/" class="navbar-logo-wrapper">
+        <img class="navbar-logo" src="/images/qingcloud-logo.svg" />
+        <div class="navbar-split navbar-left-split">|</div>
+        <div class="navbar-logo-text">KubeSphere Marketplace</div>
+      </a>
+    
+    <div class="navbar-nav">
+      <div
+        class="navbar-nav-item navbar-nav-version "
+        style="">
+        
+        <div class="dropdown-trigger">
+          <span class="project-version">
+            v1.0
+          </span>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+    <div class="search navbar-search">
+      <form action="/v1.0/search/" method="GET">
+        <div class="control has-icons-left has-icons-right docs-search-input">
+          <span class="icon is-left">
+            <img src="/images/icons/magnifier_duotone.svg" />
+          </span>
+          <input
+            class="input"
+            name="q"
+            type="input"
+            placeholder="请输入关键字快速获取帮助"
+            autocomplete="off"
+          />
+          <span class="icon is-right"> </span>
+        </div>
+        <img class="clear-search-input" src="/images/icons/close_duotone.svg" />
+      </form>
+      <div class="search-result navbar-search-result">
+        <div class="search-result-loading"></div>
+        <div class="search-result-content"></div>
+        <div class="search-result-none">
+          没有找到搜索结果， 请更换关键词重新搜索
+        </div>
+      </div>
+    </div>
+    
+  </nav>
+</header><script id="search-result-total-template" type="text/x-js-template">
+  <div class="search-result-total">
+    共为您找到 ${count} 个结果
+  </div>
+</script>
+
+<script id="search-result-item-template" type="text/x-js-template">
+  <div class="search-result-content-item">
+    <div class="search-result-content-item-title">
+      <a href="${href}">${title}</a>
+    </div>
+    <div class="search-result-content-item-content">
+      ${content}
+    </div>
+    <div class="search-result-content-item-ref">
+      <ul class="content-breadcrumb">
+      </ul>
+    </div>
+  </div>
+</div>
+</script>
+
+<script id="search-breadcrumb-template" type="text/x-js-template">
+  <li class="icon-slash_fill">
+    <a href="${href}">${title}</a>
+  </li>
+</script>
+
+<script id="search-result-total-template" type="text/x-js-template">
+  <div class="search-result-total">
+    共为您找到 ${count} 个结果
+  </div>
+</script>
+<script id="search-result-page-template" type="text/x-js-template">
+  <nav class="search-result-pagination pagination is-centered">
+    <a class="pagination-previous icon-chevron_left_fill"></a>
+    <a class="pagination-next icon-chevron_right_fill"></a>
+    <ul class="pagination-list">
+    </ul>
+  </nav>
+</script>
+<div class="container">
+
+  
+
+
+  
+    
+  
+
+
+<aside class="sidebar-wrapper">
+  <div class="sidebar-drag"></div>
+  <div class="sidebar">
+    
+      <div class="sidebar-title" >
+        <a href="/v1.0/">
+          
+            KubeSphere Marketplace
+        </a>
+        
+      </div>
+      
+    
+    <nav class="sidebar-menu">
+      
+        
+        <ul>
+  
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a >动态与公告</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          
+          <li class="sidebar-item  ">
+            <a href="/v1.0/news/product_news/">产品动态</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a >产品简介</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_down_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          
+          <li class="sidebar-item  ">
+            <a href="/v1.0/02-intro/introduction/">KubeSphere Marketplace 简介</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item active ">
+            <a >服务商操作指南</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_up_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item active ">
+            <a >服务商入驻</a>
+            
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
+            
+              <span
+                class="menu-switch-icon icon-caret_up_fill">
+              </span>
+            
+          </li>
+          
+          <ul>
+  
+  
+    
+      
+      
+      
+      
+          
+          <li class="sidebar-item  ">
+            <a href="/v1.0/03-provider-guide/01-serviceprovider/01-prerequisite/">入驻条件</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          
+          <li class="sidebar-item  ">
+            <a href="/v1.0/03-provider-guide/01-serviceprovider/02-process/">入驻流程</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          
+          <li class="sidebar-item  ">
+            <a href="/v1.0/03-provider-guide/01-serviceprovider/03-aggreement/">服务商入驻协议</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          
+          <li class="sidebar-item  ">
+            <a href="/v1.0/03-provider-guide/01-serviceprovider/04-specifications/">服务商管理规范</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          
+          <li class="sidebar-item  ">
+            <a href="/v1.0/03-provider-guide/01-serviceprovider/05-deposit/">保证金规则及缴纳方式</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          
+          <li class="sidebar-item active current">
+            <a href="/v1.0/03-provider-guide/01-serviceprovider/06-service-charge/">平台服务费规则及结算方式</a>
+          </li>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/v1.0/03-provider-guide/02-develop-extensions/">扩展组件开发</a>
+            
+            
+            
+          </li>
+          
+          <ul>
+  
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/v1.0/03-provider-guide/03-publish-extensions/">扩展组件上架</a>
+            
+            
+            
+          </li>
+          
+          <ul>
+  
+  
+</ul>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+        
+          <li
+            class="sidebar-item collapsed ">
+            <a href="/v1.0/03-provider-guide/04-operation/">扩展组件运营</a>
+            
+            
+            
+          </li>
+          
+          <ul>
+  
+  
+</ul>
+        
+      
+    
+  
+</ul>
+        
+      
+    
+  
+</ul>
+      
+    </nav>
+
+  </div>
+</aside>
+<div class="content-card-wrapper">
+  <div class="content-card">
+    <div class="content-wrapper"><ul class="content-breadcrumb">
+      <li class="icon-slash_fill"><a href="/v1.0" data-url="/v1.0">KubeSphere Marketplace</a></li>
+        
+        <li class="icon-slash_fill"><a href="/v1.0/03-provider-guide/01-serviceprovider/01-prerequisite/" data-url="/v1.0/03-provider-guide">服务商操作指南</a></li>
+        
+        <li class="icon-slash_fill"><a href="/v1.0/03-provider-guide/01-serviceprovider/01-prerequisite/" data-url="/v1.0/03-provider-guide/01-serviceprovider">服务商入驻</a></li>
+      <li class="icon-slash_fill"><a href="/v1.0/03-provider-guide/01-serviceprovider/04-specifications" data-url="/v1.0/03-provider-guide/01-serviceprovider/04-specifications">服务商管理规范</a></li></ul><div class="post-wrapper"><div class="post">
+  <h1 class="post-title">
+    服务商管理规范</h1>
+  <div class="post-info">
+    <div class="post-date">
+      更新时间：2024-05-10 09:22:52
+    </div>
+    
+    
+    
+    
+    
+    
+    
+      <div
+        class="tag post-tag export-pdf has-tooltip-top has-tooltip-arrow"
+        data-tooltip="下载范围：所属一级目录的全部内容"
+        data-url="/v1.0/03-provider-guide">
+        <span class="icon-format_pdf_2_fill"></span>
+        PDF
+      </div>
+      
+    
+  </div><div class="post-menu">
+  <div class="post-menu-title">本页目录</div>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#_第一章概述">第一章 概述</a></li>
+    <li><a href="#_第二章定义">第二章 定义</a></li>
+    <li><a href="#_第三章入驻">第三章 入驻</a></li>
+    <li><a href="#_第四章经营管理">第四章 经营管理</a></li>
+    <li><a href="#_第五章用户退款管理">第五章 用户退款管理</a></li>
+    <li><a href="#_第六章平台运营管理">第六章 平台运营管理</a></li>
+    <li><a href="#_第七章违规处理">第七章 违规处理</a></li>
+    <li><a href="#_第八章退出管理">第八章 退出管理</a></li>
+    <li><a href="#_第九章附则">第九章 附则</a></li>
+    <li><a href="#_附件服务商违规情形处理一览表">附件：服务商违规情形处理一览表</a></li>
+  </ul>
+</nav>
+</div><div class="post-content">
+    
+      
+      
+<div class="sect1">
+<h2 id="_第一章概述">第一章 概述</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>第一条【目的及依据】为维护 KubeSphere Marketplace 平台的管理秩序，保障 KubeSphere Marketplace 服务商、用户的合法权益，依据《KubeSphere Marketplace 服务商入驻协议》等相关协议和规则，制定本规范。</p>
+</div>
+<div class="paragraph">
+<p>第二条【适用范围】本规范适用于 KubeSphere Marketplace 的所有服务商。</p>
+</div>
+<div class="paragraph">
+<p>第三条【效力级别】本规范是《KubeSphere Marketplace 服务商入驻协议》（“入驻协议”）的下位规则。入驻协议中已有规定的，从其规定，未有规定或本规范有特殊规定的，按照本规范执行。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_第二章定义">第二章 定义</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>第四条 KubeSphere Marketplace ：是由北京青云科技股份有限公司（下称“青云”）搭建的云原生应用扩展市场（网址：https://kubesphere.com.cn/），KubeSphere Marketplace 服务商可通过 KubeSphere Marketplace 向用户推广、销售、提供自己的产品。
+KubeSphere Marketplace 下设多个类目，青云可能会调整市场类目的种类、名称，以届时 KubeSphere Marketplace 的页面展示为准。青云可能会根据自身的经营发展情况，适时调整 KubeSphere Marketplace 名称、网址及其他展示要素，并通过公告、站内信、邮件及其他有效方式通知服务商及用户。该等调整不会影响青云与服务商在入驻协议及本规范项下的权利义务关系。</p>
+</div>
+<div class="paragraph">
+<p>第五条 KubeSphere Marketplace 店铺（“店铺”）：是指服务商在 KubeSphere Marketplace 平台中展示产品、进行收费或免费售卖的虚拟场所，每家服务商入驻的同时都可获得店铺权限和店铺管理权限。</p>
+</div>
+<div class="paragraph">
+<p>第六条 KubeSphere Marketplace 产品（“产品”）：指服务商独立开发或者依法获得相关权利人授权，通过 KubeSphere Marketplace 向用户提供的各种构建在 KubeSphere LuBan 之上、用以扩展并增强 KubeSphere 产品能力、进一步满足企业各类型业务需求的 KubeSphere 扩展组件或相应的技术支持服务；KubeSphere Marketplace 产品包括自营、代销及服务商自销产品。对于青云自营产品，青云同时对用户承担服务商应对用户承担的所有义务、责任，并享有相应权利。</p>
+</div>
+<div class="paragraph">
+<p>第七条 KubeSphere Marketplace 服务商（“服务商”）：是指接入并通过 KubeSphere Marketplace ，向用户销售产品/服务或者实际提供产品/服务的独立软件开发商（Independent software vendor, ISV）或个人开发者。</p>
+</div>
+<div class="paragraph">
+<p>第八条 KubeSphere Marketplace 用户（“用户”）：指通过 KubeSphere Marketplace 购买、使用服务商提供的产品或服务的个人、法人或其他组织。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_第三章入驻">第三章 入驻</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>第九条 【入驻】入驻 KubeSphere Marketplace ，服务商需要同时满足如下条件：</p>
+</div>
+<div class="paragraph">
+<p>（一）有效的 KubeSphere Cloud 账号；</p>
+</div>
+<div class="paragraph">
+<p>（二）通过青云实名认证；</p>
+</div>
+<div class="paragraph">
+<p>（三）企业开发者还需要提供真实、有效的以下资料、信息：</p>
+</div>
+<div class="paragraph">
+<p>1、《企业法人营业执照》副本及企业法人身份证复印件；</p>
+</div>
+<div class="paragraph">
+<p>2、实际经营地（若有），联系人姓名及其联系电话、邮箱，服务商网址链接；</p>
+</div>
+<div class="paragraph">
+<p>（四）登记服务信息：服务商需如实登记服务人员、服务时间、服务质保期；</p>
+</div>
+<div class="paragraph">
+<p>（五）签署《KubeSphere Marketplace 服务商入驻协议》，以及与青云另行签署的线下协议（若有） ;</p>
+</div>
+<div class="paragraph">
+<p>（六）缴纳入驻保证金：根据青云发布的保证金规则缴纳入驻保证金；</p>
+</div>
+<div class="paragraph">
+<p>1、保证金的收取：在服务商入驻前需要根据产品售价以及服务商资质收取一定量的保证金；</p>
+</div>
+<div class="paragraph">
+<p>2、保证金的扣除：当出现服务商违规或退款情况，青云有权先行扣除保证金中的金额赔付或退款给用户；</p>
+</div>
+<div class="paragraph">
+<p>3、保证金的补足：当保证金不足时，服务商需在 3 个工作日内补足保证金，如果不予缴纳保证金，青云将在下一周期结算款中先行扣除保证金部分用于补足，如下一周期结算款中无法补足保证金，将关闭其在 KubeSphere Marketplace 中的所有展示权限包括店铺，直至保证金补足；</p>
+</div>
+<div class="paragraph">
+<p>4、保证金追加：凡是 12 个月内累积超过 2 次保证金扣除，青云有权在下一年内要求服务商追加 1 万元保证金；</p>
+</div>
+<div class="paragraph">
+<p>（七）青云要求的其他条件。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_第四章经营管理">第四章 经营管理</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>第十条 【产品上架】服务商在上架产品时，需满足以下要求：</p>
+</div>
+<div class="paragraph">
+<p>（一）上架的产品应当符合保障人身、财产安全的要求和环境保护要求，且经过青云安全审核；</p>
+</div>
+<div class="paragraph">
+<p>（二）上架的产品必须提供以下文件或信息：</p>
+</div>
+<div class="paragraph">
+<p>1、按照 KubeSphere Marketplace 的 <a href="https://dev-guide.kubesphere.io/extension-dev-guide/zh/packaging-and-release/">《KubeSphere 扩展组件打包发布》</a>要求提供所有信息；</p>
+</div>
+<div class="paragraph">
+<p>2、向用户公示的明确的产品协议或服务条款；</p>
+</div>
+<div class="paragraph">
+<p>3、提供产品下架的政策，如：如何保证已购用户的正常使用，如何转移权属；</p>
+</div>
+<div class="paragraph">
+<p>（三）上架的产品不得含有以下信息：</p>
+</div>
+<div class="paragraph">
+<p>1、侵犯第三方知识产权或其他合法权利的；</p>
+</div>
+<div class="paragraph">
+<p>2、含有木马、黑客程序等有损网络安全的；</p>
+</div>
+<div class="paragraph">
+<p>3、可能套取他人身份证、邮箱、手机号、银行账号、青云账号等个人或者企业隐私信息的；</p>
+</div>
+<div class="paragraph">
+<p>4、其他违反法律法规、违反国家政策或违反青云各项规则的内容；</p>
+</div>
+<div class="paragraph">
+<p>5、发布的产品或信息内容中不得使用 “唯一”、“最优”等夸大宣传或过度承诺的用语；</p>
+</div>
+<div class="paragraph">
+<p>6、未经青云书面同意，上架的产品不允许内置未在 KubeSphere Marketplace 上架的产品/服务的售卖交易入口；对产品的续费必须通过 KubeSphere Marketplace 平台进行交易；</p>
+</div>
+<div class="paragraph">
+<p>7、未经青云书面同意，上架的产品不得内置独立的用户管理系统并要求用户重新注册或录入用户信息；</p>
+</div>
+<div class="paragraph">
+<p>（四）上架的产品标题、图片、属性、价格、服务描述等产品要素之间应当互相匹配对应，并且产品服务详情描述页面、案例等页面中无嵌入非青云网站的外部链接地址，不得故意抄袭其他已入驻 KubeSphere Marketplace 平台的服务商店铺及产品信息；</p>
+</div>
+<div class="paragraph">
+<p>（五）凡在 KubeSphere Marketplace 平台上架的产品，服务商必须在其企业官网上有独立的产品展示页面；如青云要求，服务商应尽力配合注明与青云的合作关系，提供企业官网的产品购买入口，并链接到 KubeSphere Marketplace 对应的产品详情页上。</p>
+</div>
+<div class="paragraph">
+<p>第十一条【服务商管理】</p>
+</div>
+<div class="paragraph">
+<p>（一）服务商应当全面、真实、准确、及时的披露产品信息，保证用户的知情权和选择权。</p>
+</div>
+<div class="paragraph">
+<p>（二）服务商需具有出售产品所需的全部资质，并对上架的产品具有合法的知识产权或相关权利人的授权；若涉及开源软件，应严格遵守开源软件相关授权规定。</p>
+</div>
+<div class="paragraph">
+<p>（三）服务商不得销售或提供法律、行政法规禁止交易，损害国家利益和社会公共利益、违背公序良俗的产品。</p>
+</div>
+<div class="paragraph">
+<p>（四）服务商不得发布不符合 <a href="https://dev-guide.kubesphere.io/extension-dev-guide/zh/architecture/">《KubeSphere 扩展组件》</a>的产品信息：包括但不限于违反国家规定的政治宣传和/或新闻信息；涉及国家秘密和/或安全的信息；封建迷信和/或淫秽、色情、下流的信息或教唆犯罪的信息；博彩有奖、赌博游戏；“私服”、“外挂”等非法互联网出版活动；违反国家民族和宗教政策的信息；妨碍互联网运行安全的信息；侵害他人合法权益的信息和/或其他有损于社会秩序、社会治安、公共道德的信息或内容。</p>
+</div>
+<div class="paragraph">
+<p>（五）服务商在与用户交易过程中，不得引导用户在 KubeSphere Marketplace 之外进行交易，包括但不限于以下情形：</p>
+</div>
+<div class="paragraph">
+<p>1、在服务过程中，通过青云以外的渠道主动跟最终用户收取额外费用（例如用户购买了云产品配置服务并已经付款，服务商以定价较低为由，要求用户缴纳额外费用才能启动服务等）；</p>
+</div>
+<div class="paragraph">
+<p>2、用户在 KubeSphere Marketplace 平台已经提交购买的产品，服务商私自将最终用户引导至自已的渠道下单支付；</p>
+</div>
+<div class="paragraph">
+<p>3、服务商为用户服务项目中，主动引导用户使用非青云产品的行为；</p>
+</div>
+<div class="paragraph">
+<p>4、其他抢占用户资源的行为。</p>
+</div>
+<div class="paragraph">
+<p>（六）服务商不得以下列方式，作虚假或者引人误解的商业宣传，欺骗、误导用户：</p>
+</div>
+<div class="paragraph">
+<p>1、虚构交易、编造用户评价；</p>
+</div>
+<div class="paragraph">
+<p>2、采用误导性展示等方式，将好评前置、差评后置或者不显著区分不同商品或者服务的评价等；</p>
+</div>
+<div class="paragraph">
+<p>3、采用谎称现货、虚构预订、虚假抢购等方式进行虚假营销；</p>
+</div>
+<div class="paragraph">
+<p>4、虚构点击量、关注度等流量数据，以及虚构点赞、打赏等交易互动数据。</p>
+</div>
+<div class="paragraph">
+<p>（七）服务商不得实施混淆行为，引人误认为是他人商品、服务或者与他人存在特定联系。</p>
+</div>
+<div class="paragraph">
+<p>（八）服务商不得编造、传播虚假信息或者误导性信息，损害竞争对手的商业信誉、商品声誉。</p>
+</div>
+<div class="paragraph">
+<p>（九）服务商未经用户同意或者请求，不得向其发送商业性信息。发送商业性信息时，应该明示其真实身份及联系方式，并向用户提供显著、简便、免费的拒绝继续接收的方式。用户明确表示拒绝的，应当立即停止发送，不得更换名义后再次发送。</p>
+</div>
+<div class="paragraph">
+<p>（十）服务商采取自动续展、自动续费等方式提供服务的，应当在用户接受服务前和自动展期、自动续费等日期前五日，以显著方式提请用户注意，由用户自主选择；在服务期间内，应当为用户提供显著、简便的随时取消或者变更的选项，并不得收取不合理费用。</p>
+</div>
+<div class="paragraph">
+<p>第十二条 【平台服务保障】</p>
+</div>
+<div class="paragraph">
+<p>服务商在提供产品的过程中应遵守本规范要求，使用户得到满意的服务体验。</p>
+</div>
+<div class="paragraph">
+<p>（一）【无理由退货/退款】</p>
+</div>
+<div class="paragraph">
+<p>1、就服务商在 KubeSphere Marketplace 内提供或销售的产品，服务商应按照以下约定向用户做出无理由退货并全额退款的承诺：</p>
+</div>
+<div class="paragraph">
+<p>（1）应用类产品：自用户收到产品之日起七个自然日内享受无理由退货并全额退款，但 KubeSphere Marketplace 中的扩展组件按月订阅的不享受该政策；</p>
+</div>
+<div class="paragraph">
+<p>（2）服务类产品：自用户付款之日起至服务确认完成之日前未使用的服务享受无理由退还对应的款项；</p>
+</div>
+<div class="paragraph">
+<p>2、尽管有以上第 1 款之规定，在不违反相关法律法规规定的前提下，服务商在 KubeSphere Marketplace 上架的产品其在退货/退款问题上可以选择不适用上述“无理由退货”的规定；但服务商应在该等产品上架时除满足本规范第十条的约定外，还应向青云提前单独明示其退货/退款规则，且在向用户销售/提供产品的界面以显著的方式公示其退货/退款规则，以使用户能够清楚知晓并同意其所获取的产品不适用上述“无理由退货”的规定。</p>
+</div>
+<div class="paragraph">
+<p>3、尽管服务商已明示不适用“无理由退货”，但在服务商与用户就“无理由退货”产生纠纷时，若依据相关法律、法规、规则或政策等规定应无理由退货的/退款的，服务商应予以无理由退货并全额退款。</p>
+</div>
+<div class="paragraph">
+<p>（二）【质保期】</p>
+</div>
+<div class="paragraph">
+<p>服务商在产品协议或服务协议中向用户做出质量保证承诺的期间为质保期。服务商在承诺的质保期内，必须为用户提供与所售卖的产品相关的质保服务，并遵守产品协议或服务协议中关于质保期的相关承诺。</p>
+</div>
+<div class="paragraph">
+<p>第十三条 【售后服务】</p>
+</div>
+<div class="paragraph">
+<p>服务商有权自行制定其提供产品的售后服务方案，并承诺采取合理措施，确保用户购买产品时知晓并同意其售后服务方案。
+服务商对其在 KubeSphere Marketplace 提供的产品（无论是否收费）提供的售后服务应不低于以下标准：</p>
+</div>
+<div class="paragraph">
+<p>（一）售后服务方式及时间：</p>
+</div>
+<div class="paragraph">
+<p>1、服务商应在售出产品后，应当给用户提供产品售后支持；例如电话支持，技术支持，产品支持等。具体以该店铺服务协议中的内容为准；</p>
+</div>
+<div class="paragraph">
+<p>2、服务商应在周一至周五工作时间（9:00-18:00）内提供实时在线服务；（注：按中国北京时间为准）</p>
+</div>
+<div class="paragraph">
+<p>3、服务商应实时注意短信或邮件收到的用户工单申请，客服服务时间内不能出现用户工单无人回复，或联系电话、邮件无人响应等情形，以提升用户体验；</p>
+</div>
+<div class="paragraph">
+<p>4、提供（收费或/及免费）产品的服务商，因产品不可用，服务商必须为用户提供替代方案、数据备份迁移服务等解决措施。</p>
+</div>
+<div class="paragraph">
+<p>（二）【服务承诺】 在交易过程中，服务商应当按照相关约定（包括但不限于订单内容、服务全程监管、服务商自行向用户作出的服务承诺）向用户提供服务。</p>
+</div>
+<div class="paragraph">
+<p>第十四条 【发票】</p>
+</div>
+<div class="paragraph">
+<p>（一）KubeSphere Marketplace 中的服务商自销产品，服务商应向用户全额开具发票。</p>
+</div>
+<div class="paragraph">
+<p>（二）服务商应就委托青云代销的产品，按照提供给青云的供应价，向青云开具相应金额的发票。</p>
+</div>
+<div class="paragraph">
+<p>（三）服务商可就青云收取的平台服务费用（如有），向青云申请相应金额的发票。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_第五章用户退款管理">第五章 用户退款管理</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>第十五条【退款】对于 KubeSphere Marketplace 产品，用户可能会因产品质量、服务不满意等原因发起退款要求。</p>
+</div>
+<div class="paragraph">
+<p>（一）【无理由退款保证】</p>
+</div>
+<div class="paragraph">
+<p>符合无理由退货情形的，服务商应自收到用户退款申请后 7 日内完成全额退款。若涉及产品为青云代销之产品，青云享有直接向用户进行全额退款的权利。</p>
+</div>
+<div class="paragraph">
+<p>（二）【其他退款情形】</p>
+</div>
+<div class="paragraph">
+<p>除无理由退款保证外，用户因以下原因要求服务商全部或部分退款的，服务商应予以支持；并自收到用户退款申请后 7 日内完成退款或向青云确认退款：</p>
+</div>
+<div class="paragraph">
+<p>1、服务商产品质量造成客户损失，应予全额退款。</p>
+</div>
+<div class="paragraph">
+<p>2、服务商在服务中出现人为拖沓致使服务未能按期完成的，应予部分或全额退款；</p>
+</div>
+<div class="paragraph">
+<p>3、服务商宣称的产品功能及服务承诺与实际所提供的产品功能及服务质量不符的，应予全额退款；</p>
+</div>
+<div class="paragraph">
+<p>4、服务商未能按与用户达成的约定交付商品或服务，或交付的商品或服务未能满足约定的要求的，应予全额退款；</p>
+</div>
+<div class="paragraph">
+<p>5、服务商退出 KubeSphere Marketplace 且未提供经青云认可的善后方案的，应视商品或服务的交付程度，予以部分或全额退款；</p>
+</div>
+<div class="paragraph">
+<p>6、服务商未完成服务/服务不符合约定，且预留联系电话、邮件、传真均无法联络到服务商，或用户对服务态度不满投诉超 3 次，或服务商公司破产或倒闭的，应视商品或服务的交付程度，予以部分或全额退款；</p>
+</div>
+<div class="paragraph">
+<p>7、其他青云判断属于服务商责任，应当予以部分/全额退款的情形。</p>
+</div>
+<div class="paragraph">
+<p>（三）服务商向用户退款后，青云与服务商已结算的部分，青云将向服务商追回或在青云同服务商最近一次的结算中扣除，如服务商最近一次的结算金额不足以抵扣退款金额，服务商须在两个月内补足差额。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_第六章平台运营管理">第六章 平台运营管理</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>第十六条 【行为规范】服务商在 KubeSphere Marketplace 平台提供服务过程中，应遵守以下行为规范：</p>
+</div>
+<div class="paragraph">
+<p>（一）提交或填写的所有入驻信息、材料应当真实、准确、有效，不得使用虚假资质或虚假信息进行入驻，入驻材料、信息的任何变更(或失效)应自变更(或失效)之日起三个工作日内向 KubeSphere Marketplace 平台报备，并应配合青云对相关文件、信息的定期核验；</p>
+</div>
+<div class="paragraph">
+<p>（二）未经事先书面授权，不得以青云或青云其他关联公司等名义进行任何销售及宣传活动，包括但不限于电话，函件，邮件，文档等；</p>
+</div>
+<div class="paragraph">
+<p>（三）不得损害青云品牌和形象，直接或间接仿冒产品；</p>
+</div>
+<div class="paragraph">
+<p>（四）服务商不等擅自修改产品安全配置；</p>
+</div>
+<div class="paragraph">
+<p>（五）服务过程中不得出现帐号提升权限、安装后门程序等主动危害系统安全的行为；</p>
+</div>
+<div class="paragraph">
+<p>（六）服务过程中不得隐瞒其所发现的系统缺陷且恶意利用，应及时告知用户；</p>
+</div>
+<div class="paragraph">
+<p>（七）不得辱骂、恐吓、威胁、欺诈用户；</p>
+</div>
+<div class="paragraph">
+<p>（八）服务商应当仅获取为提供 KubeSphere Marketplace 服务而必要的信息，且服务商在服务过程中收集的信息仅可在为某一特定用户提供 KubeSphere Marketplace 服务过程中使用；服务商不得将收集的信息用于服务之外的任何目的，不得将信息出售、转让或向任何第三方披露，也不得超范围收集用户信息；前述信息包括但不限于用户会员名、手机号码、地址、产品账号密码、网站数据等；涉及个人信息收集、使用的，应遵循相关法律法规之规定，在相关产品的提供界面以显著的方式向用户告知并获得同意；</p>
+</div>
+<div class="paragraph">
+<p>（九）服务商应积极对自身的产品进行更新或调整，保证所提供的产品安全、可用；</p>
+</div>
+<div class="paragraph">
+<p>（十）产品有更新或调整的话，服务商应及时同步更新到 KubeSphere Marketplace ；</p>
+</div>
+<div class="paragraph">
+<p>（十一）连续三个月零成交产品 KubeSphere Marketplace 有权下架；</p>
+</div>
+<div class="paragraph">
+<p>（十二）服务商在服务过程中应做好数据备份等工作，完结后及时删除备份的数据，不得因人为失误造成用户损失：</p>
+</div>
+<div class="paragraph">
+<p>1、产品维护或者数据迁移过程中因服务商错误操作导致数据丢失；</p>
+</div>
+<div class="paragraph">
+<p>2、不同的青云最终用户数据因服务商工作失误造成混淆；</p>
+</div>
+<div class="paragraph">
+<p>3、除以上列出的行为之外的其他导致数据丢失或混淆的情形。</p>
+</div>
+<div class="paragraph">
+<p>（十三）当发生投诉时，服务商应积极配合 KubeSphere Marketplace 进行调查及取证工作，并在 30 分钟内响应，不得：</p>
+</div>
+<div class="paragraph">
+<p>1、假冒用户致电，表示撤销投诉；</p>
+</div>
+<div class="paragraph">
+<p>2、用户投诉后，虚构事实，隐瞒实情，阻碍青云正常调查；</p>
+</div>
+<div class="paragraph">
+<p>3、除以上列出的行为之外的妨碍、阻止、影响 KubeSphere Marketplace 调查、取证的行为。</p>
+</div>
+<div class="paragraph">
+<p>（十四）当服务商提供的产品因为版权问题（包括青云接到投诉或有合理理由判断的情况），被版权所有方追责，服务商应采取有效措施停止侵权：</p>
+</div>
+<div class="paragraph">
+<p>1、下架该产品；</p>
+</div>
+<div class="paragraph">
+<p>2、为已使用该产品的用户，提供替代该产品或其他解决方案，并负责为用户提供在此过程中所需要的数据迁移及其他相关服务及费用；</p>
+</div>
+<div class="paragraph">
+<p>3、其他合理必要的措施。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_第七章违规处理">第七章 违规处理</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>第十七条 【违规情形与处理】服务商出现违规情形后，KubeSphere Marketplace 按照附件一《KubeSphere Marketplace 服务商违规情形处理一览表》，依据相应的违规情形认定和处理流程，经认定属实后，进行相应的处理。另外违规情形之外的违规行为，青云保留根据事实进行判断处理的权利。</p>
+</div>
+<div class="paragraph">
+<p>第十八条 【节点处理】KubeSphere Marketplace 对服务商进行独立的违规处理，处理的方式有如下措施：</p>
+</div>
+<div class="paragraph">
+<p>1、扣分：依据服务商不同的违规行为予以扣分的方式并予以记录；</p>
+</div>
+<div class="paragraph">
+<p>2、店铺冻结：指店铺及产品在一定期间内无法在 KubeSphere Marketplace 展现，但不影响已订购该店铺内产品的用户正常使用；</p>
+</div>
+<div class="paragraph">
+<p>3、保证金扣除：指依据服务商不同的违规行为予以扣除部分或全部保证金的方式；</p>
+</div>
+<div class="paragraph">
+<p>4、清退：服务商违规扣分累计达 24 分的，所有产品下架，服务商清退，保证金扣除；</p>
+</div>
+<div class="paragraph">
+<p>5、依据法律法规政策、协议条款及管理规范的规定，青云有权采取的其他措施，包括但不限于展现方式降等、违规通报、追加保证金、限制产品类目等。</p>
+</div>
+<div class="paragraph">
+<p>第十九条 【违规扣分】服务商违规所扣分数将在每个自然年十二月三十一日二十四时清零。若投诉须进行跨年度处理的，则所扣分值记录到下一个自然年中。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_第八章退出管理">第八章 退出管理</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>第二十条 【合作终止退出】协议期限届满而双方决定不再续约，或出现由一方或双方提出的提前终止协议的情形时，服务商退出 KubeSphere Marketplace。</p>
+</div>
+<div class="paragraph">
+<p>第二十一条 【主动退出】服务商有权根据自身的实际经营情况，申请退出 KubeSphere Marketplace。</p>
+</div>
+<div class="paragraph">
+<p>第二十二条 【清退】服务商如出现以下任一情形，青云有权将其清退出 KubeSphere Marketplace：</p>
+</div>
+<div class="paragraph">
+<p>1、服务商出现上文违规处理里所列的应被清退的情形；</p>
+</div>
+<div class="paragraph">
+<p>2、不再符合相应的入驻条件；</p>
+</div>
+<div class="paragraph">
+<p>3、服务商会员账户因违反青云网站的其他规范，已被青云列黑名单或清退的。</p>
+</div>
+<div class="paragraph">
+<p>4、服务商在一个自然年度内违规扣分累计达 24 分；</p>
+</div>
+<div class="paragraph">
+<p>5、其他青云认定服务商违规情形严重的行为。</p>
+</div>
+<div class="paragraph">
+<p>第二十三条 【退出再申请】服务商主动退出 KubeSphere Marketplace 的，自退出之日起须间隔一年以上方可再次提交入驻申请；服务商被青云清退出 KubeSphere Marketplace 的，永久不得重新入驻。</p>
+</div>
+<div class="paragraph">
+<p>第二十四条 【退出后业务处理】无论因何原因服务商退出时，对其与用户之间已经达成的交易，按如下方式处理：</p>
+</div>
+<div class="paragraph">
+<p>（一） 购买该服务商的服务或产品的用户项目未交付或未启动的，应视产品或服务的交付程度，予以部分或全额退款；</p>
+</div>
+<div class="paragraph">
+<p>（二） 服务商退出后 KubeSphere Marketplace 后，青云对其已经售出的产品，不再提供续费服务；</p>
+</div>
+<div class="paragraph">
+<p>（三） 服务商退出后，其售出的 KubeSphere Marketplace 产品的相关售后服务，均由服务商自行与用户协商提供。对青云代销的产品，服务商同意青云可保留其保证金至所有该等产品质保期届满。质保期内未发生任何纠纷的，青云在该等质保期满 10 日内退还保证金。</p>
+</div>
+<div class="paragraph">
+<p>第二十五条 服务商合作终止退出或主动退出 KubeSphere Marketplace 的，须提前 60 日发送电子邮件至 <a href="mailto:support@kubesphere.cloud">support@kubesphere.cloud</a> 提交退出申请。KubeSphere Marketplace 审核通过后，服务商应提前三十日在其店铺主页的显著位置，持续公示终止销售公告的信息，并采取合利、必要、及时的措施保障用户和 KubeSphere Marketplace 的合法权益。</p>
+</div>
+<div class="paragraph">
+<p>第二十六条 服青云将务商清退 KubeSphere Marketplace 的，青云将在其店铺主页的显著位置，持续公示终止销售公告的信息，并采取合利、必要、及时的措施保障用户的合法权益。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_第九章附则">第九章 附则</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>第二十七条 本规范于北京时间 2023 年 10 月 10 日发布。自发布之日起生效。</p>
+</div>
+<div class="paragraph">
+<p>第二十八条 青云有权根据市场环境、合作商合作体系发展状况等因素对本管理规范做相应的修订。修订后，将以公告、站内信、邮件及其他有效方式方式通知服务商。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_附件服务商违规情形处理一览表">附件：服务商违规情形处理一览表</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 12.5%;"/>
+<col style="width: 50%;"/>
+<col style="width: 12.5%;"/>
+<col style="width: 12.5%;"/>
+<col style="width: 12.5%;"/>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">违规类型</th>
+<th class="tableblock halign-left valign-top">违规内容</th>
+<th class="tableblock halign-left valign-top">扣分</th>
+<th class="tableblock halign-left valign-top">处理类型</th>
+<th class="tableblock halign-left valign-top">保证金扣除</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top" rowspan="5"><p class="tableblock">违反行为规范</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">未经青云或其关联公司授权，服务商在其服务标识、服务标题、服务简介、服务详情、图片或其他页面服务中使用“青云”、“QingCloud”、 “KubeSphere”、“青云科技”或关联公司的名称、或上述品牌的附属标志及图案的任何变体、缩写或错误拼写；</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">服务冻结 15 天</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3000 元</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">服务商向运营、生态合作经理等工作人员行贿等行为；</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">24</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">清退</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">全部扣除</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">对于服务商引导 KubeSphere Marketplace 用户进行线下交易的行为，将采取零容忍政策，一经查证属实，将立即清退相关服务商，永久终止 KubeSphere Marketplace 业务合作。（服务商终止合作、产品下架等触发的未完成项目的退款除外。）详见：第十一条。</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">24</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">清退</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">全部扣除</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">提供 KubeSphere Marketplace 禁止的服务或产品；详见：第十条、十一条</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">服务冻结 7 天</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1000 元</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">擅自出售、转让、向任何第三方泄露，或以其他方式违规使用青云的经营信息和运营数据，及/或用户的个人信息和相关数据的；</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">24</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">清退</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">全部扣除</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" rowspan="4"><p class="tableblock">违反诚信经营</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">服务未完成恶意引导用户提前验收，引起的用户投诉；</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">–</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1000 元</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">对用户实施欺诈行为引起用户投诉，对用户造成严重损失的；</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">服务冻结 15 天</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3000 元</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">当接到投诉时，假冒用户向青云表示撤销投诉；</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">服务冻结 7 天</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1000 元</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">当接到投诉时，虚构事实，隐瞒实情，阻碍青云正常调查；</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">–</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1000 元</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" rowspan="11"><p class="tableblock">服务或产品违规</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">辱骂、恐吓、威胁用户的行为；</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">服务冻结 15 天</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3000 元</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">当接到投诉时，服务商未在 30 分钟内及时响应；</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">–</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">–</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">店铺客服、电话在约定的服务时间内未能提供实时服务，或售后邮件、电话未能及时响应回复，导致用户投诉或者被 KubeSphere Marketplace 抽查发现的</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">–</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">–</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">拒不履行双方已确认的服务承诺的，包括但不限于未完成的过度承诺引起用户投诉的；</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">–</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">–</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">服务商在或开发过程中出现帐号提权、安装后门程序等主动危害系统安全的行为；</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">24</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">清退</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">全部扣除</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">上架的产品含有木马、黑客程序等有损网络安全的；</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">24</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">清退</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">全部扣除</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">上架的产品可能套取他人身份证、邮箱、手机号、银行账号、支付宝账号等个人或者企业隐私信息的；</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">24</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">清退</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">全部扣除</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">服务商在服务过程中擅自修改用户云产品安全配置引起用户投诉的；</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">服务冻结 15 天</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3000 元</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">上架的产品内置未在 KubeSphere Marketplace 上架的产品/服务的售卖交易入口，对产品的续费必须通过 KubeSphere Marketplace 进行交易；</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">服务冻结 15 天</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3000 元</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">上架的产品内置独立的用户管理系统并要求用户重新注册或录入用户信息</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">服务冻结 15 天</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3000 元</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">上架的产品侵犯第三方知识产权或其他合法权利的；</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">服务冻结 15 天</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">–</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" rowspan="2"><p class="tableblock">不正当竞争</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">服务商通过虚假交易等方式提高产品或服务的销量；</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">–</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">–</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">服务商以恶意抄袭、评价、恶意投诉、诋毁、虚假订购等方式进行不正当竞争；</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">服务冻结 7 天</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">–</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" rowspan="2"><p class="tableblock">违法入驻规则</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">使用虚假资质或虚假信息进行入驻 KubeSphere Marketplace ；</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">24</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">清退</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">全部扣除</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">服务商未在其企业官网上展示在 KubeSphere Marketplace 上架的产品，购买入口未链接到 KubeSphere Marketplace 对应的产品详情页上，以及未注明与青云的合作关系；</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">–</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">–</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>注：</p>
+</div>
+<div class="paragraph">
+<p>未在本表列举范围内的违规情形，青云有权依据管理规范所确定的原则进行相应的处理。</p>
+</div>
+<div class="paragraph">
+<p>青云有权视违规行为的恶劣程度、影响范围、后果大小等，在本表基础上叠加适用其他必要的处罚措施。</p>
+</div>
+</div>
+</div>
+
+    
+
+  </div>
+  <div class="post-footer">
+    <div class="post-prev">
+    </div>
+    <div class="post-next">
+    </div>
+  </div>
+  <div class="post-back-to-top">
+    <span class="icon-up_3_fill"></span>
+  </div>
+</div>
+<div class="post-placeholder"><div class="post-menu">
+  <div class="post-menu-title">本页目录</div>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#_第一章概述">第一章 概述</a></li>
+    <li><a href="#_第二章定义">第二章 定义</a></li>
+    <li><a href="#_第三章入驻">第三章 入驻</a></li>
+    <li><a href="#_第四章经营管理">第四章 经营管理</a></li>
+    <li><a href="#_第五章用户退款管理">第五章 用户退款管理</a></li>
+    <li><a href="#_第六章平台运营管理">第六章 平台运营管理</a></li>
+    <li><a href="#_第七章违规处理">第七章 违规处理</a></li>
+    <li><a href="#_第八章退出管理">第八章 退出管理</a></li>
+    <li><a href="#_第九章附则">第九章 附则</a></li>
+    <li><a href="#_附件服务商违规情形处理一览表">附件：服务商违规情形处理一览表</a></li>
+  </ul>
+</nav>
+</div></div>
+      </div>
+    </div>
+  </div>
+</div></div>
+    </body><script src="/js/bootstrap.min.js"></script>
+<script src="/js/autocomplete/jquery.autocomplete.js"></script>
+<script src="/js/copy-to-clipboard.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script src="/js/jquery.tmpl.min.js"></script>
+<script src="/js/jquery.magnific-popup.min.js"></script>
+<script src="/js/search/jquery.mark.min.js"></script>
+
+<script type="text/javascript" src="/js/common.428b8a7f426567136e0501d49705f10dac2e4539d10c2f396d7c9ee45df1469eaa38e983928589e0e35ed30c1732ddbcda694ac0928ffffffee76b4a0017adf2.js" integrity="sha512-QouKf0JlZxNuBQHUlwXxDawuRTnRDC85bXye5F3xRp6qOOmDkoWJ4ONe0wwXMt282mlKwJKP///&#43;52tKABet8g=="></script>
+
+<script type="text/javascript" src="/js/search.d8001c3e1b66b9a0b48e0c23ad0dbfc0906f194f8925ae78a9900b960679cfa7e41cebd9efd654f84535d02cbce7c4971f226e6f07288c26c3c4560c36d7655b.js"></script>
+<script>
+  $(function() {
+    
+    hljs.highlightAll();
+    
+    $.each($('.post-content .imageblock img'), function () {
+      $(this).attr('data-mfp-src', $(this).attr('src'));
+    });
+    $('.post-content').magnificPopup({
+      disableOn: function () {
+        if ($(window).width() < 600) {
+          return false;
+        }
+        return true;
+      },
+      delegate: '.imageblock img',
+      type: 'image',
+      gallery: {
+        enabled: true,
+      },
+    });
+  });
+</script>
+</html>

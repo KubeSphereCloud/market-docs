@@ -7,14 +7,14 @@
 <html lang="zh"><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 
-<meta name="keywords" content="[KubeSphere Marketplace, 扩展市场, 服务费]">
+<meta name="keywords" content="[KubeSphere Marketplace, 扩展市场, 保证金]">
 
 
 <meta name="description" content="这是 KubeSphere Marketplace 文档页面">
 
 <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 
-<title>平台服务费规则及结算方式 - KubeSphere Marketplace</title>
+<title>保证金规则及缴纳方式 - KubeSphere Marketplace</title>
 <link href="/css/bulma.css" rel="stylesheet">
 <link href="/css/bulma-tooltip.min.css" rel="stylesheet">
 <link href="/css/atom-one-light.css" rel="stylesheet" />
@@ -200,7 +200,7 @@
       
         
           <li
-            class="sidebar-item active ">
+            class="sidebar-item collapsed ">
             <a >产品简介</a>
             
             
@@ -212,7 +212,7 @@
             
             
               <span
-                class="menu-switch-icon icon-caret_up_fill">
+                class="menu-switch-icon icon-caret_down_fill">
               </span>
             
           </li>
@@ -226,7 +226,7 @@
       
       
           
-          <li class="sidebar-item active current">
+          <li class="sidebar-item  ">
             <a href="/v1.0/02-intro/introduction/">KubeSphere Marketplace 简介</a>
           </li>
         
@@ -245,7 +245,7 @@
       
         
           <li
-            class="sidebar-item collapsed ">
+            class="sidebar-item active ">
             <a >服务商操作指南</a>
             
             
@@ -275,7 +275,7 @@
             
             
               <span
-                class="menu-switch-icon icon-caret_down_fill">
+                class="menu-switch-icon icon-caret_up_fill">
               </span>
             
           </li>
@@ -290,7 +290,7 @@
       
         
           <li
-            class="sidebar-item collapsed ">
+            class="sidebar-item active ">
             <a >服务商入驻</a>
             
             
@@ -318,9 +318,21 @@
                 
               
             
+              
+                
+                  
+                
+              
+            
+              
+                
+                  
+                
+              
+            
             
               <span
-                class="menu-switch-icon icon-caret_down_fill">
+                class="menu-switch-icon icon-caret_up_fill">
               </span>
             
           </li>
@@ -347,7 +359,7 @@
       
       
           
-          <li class="sidebar-item  ">
+          <li class="sidebar-item active current">
             <a href="/v1.0/03-provider-guide/01-serviceprovider/02-process/">入驻流程</a>
           </li>
         
@@ -360,8 +372,8 @@
       
       
           
-          <li class="sidebar-item active current">
-            <a href="/v1.0/03-provider-guide/01-serviceprovider/03-deposit/">保证金规则及缴纳方式</a>
+          <li class="sidebar-item  ">
+            <a href="/v1.0/03-provider-guide/01-serviceprovider/03-aggreement/">服务商入驻协议</a>
           </li>
         
       
@@ -374,7 +386,33 @@
       
           
           <li class="sidebar-item  ">
-            <a href="/v1.0/03-provider-guide/01-serviceprovider/04-service-charge/">平台服务费规则及结算方式</a>
+            <a href="/v1.0/03-provider-guide/01-serviceprovider/04-specifications/">服务商管理规范</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          
+          <li class="sidebar-item  ">
+            <a href="/v1.0/03-provider-guide/01-serviceprovider/05-deposit/">保证金规则及缴纳方式</a>
+          </li>
+        
+      
+    
+  
+    
+      
+      
+      
+      
+          
+          <li class="sidebar-item  ">
+            <a href="/v1.0/03-provider-guide/01-serviceprovider/06-service-charge/">平台服务费规则及结算方式</a>
           </li>
         
       
@@ -470,12 +508,12 @@
         <li class="icon-slash_fill"><a href="/v1.0/03-provider-guide/01-serviceprovider/01-prerequisite/" data-url="/v1.0/03-provider-guide">服务商操作指南</a></li>
         
         <li class="icon-slash_fill"><a href="/v1.0/03-provider-guide/01-serviceprovider/01-prerequisite/" data-url="/v1.0/03-provider-guide/01-serviceprovider">服务商入驻</a></li>
-      <li class="icon-slash_fill"><a href="/v1.0/03-provider-guide/01-serviceprovider/04-service-charge" data-url="/v1.0/03-provider-guide/01-serviceprovider/04-service-charge">平台服务费规则及结算方式</a></li></ul><div class="post-wrapper"><div class="post">
+      <li class="icon-slash_fill"><a href="/v1.0/03-provider-guide/01-serviceprovider/05-deposit" data-url="/v1.0/03-provider-guide/01-serviceprovider/05-deposit">保证金规则及缴纳方式</a></li></ul><div class="post-wrapper"><div class="post">
   <h1 class="post-title">
-    平台服务费规则及结算方式</h1>
+    保证金规则及缴纳方式</h1>
   <div class="post-info">
     <div class="post-date">
-      更新时间：2024-03-06 08:13:29
+      更新时间：2024-05-10 09:22:52
     </div>
     
     
@@ -498,8 +536,9 @@
   <nav id="TableOfContents">
   <ul>
     <li><a href="#_收费标准">收费标准</a></li>
-    <li><a href="#_结算方式">结算方式</a></li>
+    <li><a href="#_缴纳方式">缴纳方式</a></li>
     <li><a href="#_激励政策">激励政策</a></li>
+    <li><a href="#_其他说明">其他说明</a></li>
   </ul>
 </nav>
 </div><div class="post-content">
@@ -507,29 +546,30 @@
       
       
 <div class="paragraph">
-<p>为了提升 KubeSphere Marketplace 服务商积极性，促进 KubeSphere Marketplace 业务的健康发展，依据 KubeSphere Marketplace 服务商入驻协议及服务商管理规范的相关规定，平台将向服务商收取一定金额的服务费（“平台服务费”）。</p>
+<p>为了更好地保障 KubeSphere 用户的权益，提升 KubeSphere Marketplace 服务商的服务水平和扩展组件质量，在发布扩展组件前，服务商需缴纳保证金。如果服务商未缴纳保证金，将无法进行扩展组件发布及收益提现等系列操作。</p>
 </div>
 <div class="sect1">
 <h2 id="_收费标准">收费标准</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>平台服务费是 KubeSphere 基于其为服务商所提供的平台与销售服务，有权向服务商收取一定金额的服务费用，该费用按服务商在 KubeSphere Marketplace 所产生实际订单交易金额的 15% 收取。</p>
+<p>保证金是指服务商用以担保其在与 KubeSphere Marketplace 合作期内，将遵守 KubeSphere Marketplace 相关协议及 KubeSphere Marketplace 管理规范的相关约定，为用户提供安全、合法的产品，而向 KubeSphere 缴纳的一定数额的款项，金额为 5000 元。KubeSphere 保留后续根据市场条件等，调整保证金金额的权利。</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_结算方式">结算方式</h2>
+<h2 id="_缴纳方式">缴纳方式</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>服务商可以于每个自然月的前十个工作日后通过服务商的 KubeSphere Marketplace 账户进行上月收入的提现申请操作，并按照提现申请金额开具发票，KubeSphere 在收到服务商寄送发票后将对应的收入金额支付至服务商的收款账户。提现金额应不少于 10000 元，如单月收入不足 10000 元，则提现范围须大于等于 2 个月。服务商提现时不能自行指定提现金额，须按照账户每月实际收入进行提现。</p>
+<p>服务商需通过银行转账的方式缴纳保证金。以下是收款账户信息：</p>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_激励政策">激励政策</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>以上平台服务费规则将于北京时间 2024 年 3 月 1 日开始执行。在此之前入驻 KubeSphere Marketplace 的服务商第一年内前 20 万元成交额，平台可不收取该成交额的平台服务费。</p>
+<p>户名：北京青云科技股份有限公司</p>
+</div>
+<div class="paragraph">
+<p>账号：0200001109024543164</p>
+</div>
+<div class="paragraph">
+<p>开户行：工行北京安定门支行</p>
 </div>
 <table class="tableblock frame-all grid-all stretch admon note">
 <colgroup>
@@ -543,11 +583,33 @@
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>仅限线上部分，KubeSphere 私有化部署版不参与该激励。</p>
+<p>转账时，请备注“公司名称-KubeSphere Marketplace 保证金”。</p>
 </div></div></td>
 </tr>
 </tbody>
 </table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_激励政策">激励政策</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>我们制定了两项激励政策，以鼓励更多的服务商加入 KubeSphere Marketplace：</p>
+</div>
+<div class="paragraph">
+<p>激励政策一：凡是在 2024 年 9 月 1 日前入驻 KubeSphere Marketplace 的服务商，自其扩展组件上架 KubeSphere Marketplace 之日起一年内享受保证金减免政策，即该期间内可不予缴纳保证金（5000 元），一年期限届满后的 5 日内缴纳保证金。</p>
+</div>
+<div class="paragraph">
+<p>激励政策二：我们取消了对于提供免费或符合开源协议的软件服务化的开发者，以及规模不超过 10 人的微型企业的保证金要求，旨在扩大服务商的参与范围，为 KubeSphere 的用户提供更加丰富的选择。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_其他说明">其他说明</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>服务商在合作期间没有违反 KubeSphere Marketplace 管理规范，合作终止后将会退回保证金。如无特殊情况，保证金会在所有产品下架后的三个月后退回。</p>
+</div>
 </div>
 </div>
 
@@ -569,8 +631,9 @@
   <nav id="TableOfContents">
   <ul>
     <li><a href="#_收费标准">收费标准</a></li>
-    <li><a href="#_结算方式">结算方式</a></li>
+    <li><a href="#_缴纳方式">缴纳方式</a></li>
     <li><a href="#_激励政策">激励政策</a></li>
+    <li><a href="#_其他说明">其他说明</a></li>
   </ul>
 </nav>
 </div></div>
