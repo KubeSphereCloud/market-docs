@@ -79,11 +79,45 @@ KubeSphere 官方：预计在本年度内发布 20 款官方扩展组件。
     </item>
     
     <item>
-      <title>保证金规则及缴纳方式</title>
-      <link>/v1.0/03-provider-guide/01-serviceprovider/03-deposit/</link>
+      <title>服务商入驻协议</title>
+      <link>/v1.0/03-provider-guide/01-serviceprovider/03-aggreement/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/v1.0/03-provider-guide/01-serviceprovider/03-deposit/</guid>
+      <guid>/v1.0/03-provider-guide/01-serviceprovider/03-aggreement/</guid>
+      <description>您确认：您充分阅读、理解并接受《KubeSphere Marketplace 服务商入驻协议》（以下称“本协议”）等相关协议的全部内容。其中限制或免除青云责任、对您的权利限制的条款以及其他可能对您的权益存在重大利害关系的条款，我们可能以下划线或者加粗形式提示您注意。
+如果您对本协议的条款有疑问，请通过青云（定义见下文）相关业务部门 进行询问，青云将向您解释条款内容。如果您不同意本协议的任意内容，或者无法准确理解青云对条款的解释，请不要进行任何后续操作。 除非您已阅读并接受本协议及相关协议的所有条款，否则，您无权使用本服务，您使用本服务的任何行为，即视为您已阅读并同意上述协议的约束。届时您不应以未阅读本协议及相关协议的内容或者未获得 KubeSphere Marketplace 对您问询的解答等理由，主张本协议及相关协议无效，或要求撤销本协议及相关协议。
+您有违反本协议的任何行为时，青云有权依照您违反情况随时单方采取限制、中止或终止向您提供服务等措施，并有权追究您相关责任。
+一、协议主体、生效及范围 1.1 本协议系选择入驻 KubeSphere Marketplace （定义见下文）成为其服务商（定义见下文）具备完全民事权利能力和完全民事行为能力的法律实体（以下称“服务商”或“您”），与 KubeSphere Marketplace 的经营方北京青云科技股份有限公司（如无特别说明，以下称“青云”）之间的具有法律效力的有效合约。
+1.2 本协议内容同时包括协议正文、附件，以及所有青云可能不断发布的关于本服务的相关协议、业务规则、通知、公告等内容（以下统称为“规则”）。所有规则为本协议不可分割的组成部分，与本协议具有同等法律效力。
+1.3 您通过网络页面点击确认、邮件确认、书面签署或其他青云认可的方式选择接受本协议。您经过青云审核，成功开通 KubeSphere Marketplace 服务商账户即表示您与青云已达成协议并同意接受本协议的全部约定内容。本协议自您确认接受之时起，或自您使用 KubeSphere Marketplace 之服务的行为发生之时起（以时间在先者为准）生效。
+1.4 青云有权对本协议条款及相应的规则内容进行单方面的变更，青云至少会提前 30 个自然日进行通知。青云有权将以网站公告（网址：https://kubesphere.com.cn/）、邮件通知或其他适当的方式进行告知，而无需另行单独通知。告知中会标明生效日期，相关变更生效后成为本协议的一部分。如您不同意相关变更，应当在变更生效之日起立即停止使用 KubeSphere Marketplace 的任何服务，同时与青云协商退出 KubeSphere Marketplace ，本协议终止；如您继续使用 KubeSphere Marketplace 的任何服务，则视为您对相关变更表示已充分阅读、理解、不持异议并同意遵守。
+二、定义 除非本协议中另有定义，下列词语在本协议中均应具有以下特定涵义：
+2.1 KubeSphere Marketplace ：指由青云搭建的 KubeSphere 云原生应用扩展市场（网址：https://kubesphere.com.cn/），KubeSphere Marketplace 服务商可通过 KubeSphere Marketplace 向用户推广、销售、提供自己的产品。 青云将根据自身的经营发展情况，适时调整平台名称、网址及其他展示要素，并通过公告、邮件及其他有效方式通知服务商及用户。该等调整不会影响青云与服务商、服务商与用户、青云与用户在本协议项下的权利义务关系。
+2.2 KubeSphere Marketplace 服务商：指接入并通过 KubeSphere Marketplace ，向用户销售产品/服务或者实际提供产品/服务的独立软件开发商（Independent software vendor, ISV）或个人开发者，简称“服务商”或“您”。
+2.3 KubeSphere Marketplace 用户：指通过 KubeSphere Marketplace 购买、使用服务商提供的产品或服务的个人、法人或其他组织，简称“用户”。</description>
+    </item>
+    
+    <item>
+      <title>服务商管理规范</title>
+      <link>/v1.0/03-provider-guide/01-serviceprovider/04-specifications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v1.0/03-provider-guide/01-serviceprovider/04-specifications/</guid>
+      <description>第一章 概述 第一条【目的及依据】为维护 KubeSphere Marketplace 平台的管理秩序，保障 KubeSphere Marketplace 服务商、用户的合法权益，依据《KubeSphere Marketplace 服务商入驻协议》等相关协议和规则，制定本规范。
+第二条【适用范围】本规范适用于 KubeSphere Marketplace 的所有服务商。
+第三条【效力级别】本规范是《KubeSphere Marketplace 服务商入驻协议》（“入驻协议”）的下位规则。入驻协议中已有规定的，从其规定，未有规定或本规范有特殊规定的，按照本规范执行。
+第二章 定义 第四条 KubeSphere Marketplace ：是由北京青云科技股份有限公司（下称“青云”）搭建的云原生应用扩展市场（网址：https://kubesphere.com.cn/），KubeSphere Marketplace 服务商可通过 KubeSphere Marketplace 向用户推广、销售、提供自己的产品。 KubeSphere Marketplace 下设多个类目，青云可能会调整市场类目的种类、名称，以届时 KubeSphere Marketplace 的页面展示为准。青云可能会根据自身的经营发展情况，适时调整 KubeSphere Marketplace 名称、网址及其他展示要素，并通过公告、站内信、邮件及其他有效方式通知服务商及用户。该等调整不会影响青云与服务商在入驻协议及本规范项下的权利义务关系。
+第五条 KubeSphere Marketplace 店铺（“店铺”）：是指服务商在 KubeSphere Marketplace 平台中展示产品、进行收费或免费售卖的虚拟场所，每家服务商入驻的同时都可获得店铺权限和店铺管理权限。
+第六条 KubeSphere Marketplace 产品（“产品”）：指服务商独立开发或者依法获得相关权利人授权，通过 KubeSphere Marketplace 向用户提供的各种构建在 KubeSphere LuBan 之上、用以扩展并增强 KubeSphere 产品能力、进一步满足企业各类型业务需求的 KubeSphere 扩展组件或相应的技术支持服务；KubeSphere Marketplace 产品包括自营、代销及服务商自销产品。对于青云自营产品，青云同时对用户承担服务商应对用户承担的所有义务、责任，并享有相应权利。
+第七条 KubeSphere Marketplace 服务商（“服务商”）：是指接入并通过 KubeSphere Marketplace ，向用户销售产品/服务或者实际提供产品/服务的独立软件开发商（Independent software vendor, ISV）或个人开发者。</description>
+    </item>
+    
+    <item>
+      <title>保证金规则及缴纳方式</title>
+      <link>/v1.0/03-provider-guide/01-serviceprovider/05-deposit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/v1.0/03-provider-guide/01-serviceprovider/05-deposit/</guid>
       <description>为了更好地保障 KubeSphere 用户的权益，提升 KubeSphere Marketplace 服务商的服务水平和扩展组件质量，在发布扩展组件前，服务商需缴纳保证金。如果服务商未缴纳保证金，将无法进行扩展组件发布及收益提现等系列操作。
 收费标准 保证金是指服务商用以担保其在与 KubeSphere Marketplace 合作期内，将遵守 KubeSphere Marketplace 相关协议及 KubeSphere Marketplace 管理规范的相关约定，为用户提供安全、合法的产品，而向 KubeSphere 缴纳的一定数额的款项，金额为 5000 元。KubeSphere 保留后续根据市场条件等，调整保证金金额的权利。
 缴纳方式 服务商需通过银行转账的方式缴纳保证金。以下是收款账户信息：
@@ -92,21 +126,21 @@ KubeSphere 官方：预计在本年度内发布 20 款官方扩展组件。
 开户行：工行北京安定门支行
 备注 转账时，请备注“公司名称-KubeSphere Marketplace 保证金”。
 激励政策 我们制定了两项激励政策，以鼓励更多的服务商加入 KubeSphere Marketplace：
-激励政策一：凡是在 2024 年 3 月 1 日前入驻 KubeSphere Marketplace 的服务商，自其扩展组件上架 KubeSphere Marketplace 之日起一年内享受保证金减免政策，即该期间内可不予缴纳保证金（5000 元），一年期限届满后的 5 日内缴纳保证金。
+激励政策一：凡是在 2024 年 9 月 1 日前入驻 KubeSphere Marketplace 的服务商，自其扩展组件上架 KubeSphere Marketplace 之日起一年内享受保证金减免政策，即该期间内可不予缴纳保证金（5000 元），一年期限届满后的 5 日内缴纳保证金。
 激励政策二：我们取消了对于提供免费或符合开源协议的软件服务化的开发者，以及规模不超过 10 人的微型企业的保证金要求，旨在扩大服务商的参与范围，为 KubeSphere 的用户提供更加丰富的选择。
 其他说明 服务商在合作期间没有违反 KubeSphere Marketplace 管理规范，合作终止后将会退回保证金。如无特殊情况，保证金会在所有产品下架后的三个月后退回。</description>
     </item>
     
     <item>
       <title>平台服务费规则及结算方式</title>
-      <link>/v1.0/03-provider-guide/01-serviceprovider/04-service-charge/</link>
+      <link>/v1.0/03-provider-guide/01-serviceprovider/06-service-charge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/v1.0/03-provider-guide/01-serviceprovider/04-service-charge/</guid>
+      <guid>/v1.0/03-provider-guide/01-serviceprovider/06-service-charge/</guid>
       <description>为了提升 KubeSphere Marketplace 服务商积极性，促进 KubeSphere Marketplace 业务的健康发展，依据 KubeSphere Marketplace 服务商入驻协议及服务商管理规范的相关规定，平台将向服务商收取一定金额的服务费（“平台服务费”）。
 收费标准 平台服务费是 KubeSphere 基于其为服务商所提供的平台与销售服务，有权向服务商收取一定金额的服务费用，该费用按服务商在 KubeSphere Marketplace 所产生实际订单交易金额的 15% 收取。
 结算方式 服务商可以于每个自然月的前十个工作日后通过服务商的 KubeSphere Marketplace 账户进行上月收入的提现申请操作，并按照提现申请金额开具发票，KubeSphere 在收到服务商寄送发票后将对应的收入金额支付至服务商的收款账户。提现金额应不少于 10000 元，如单月收入不足 10000 元，则提现范围须大于等于 2 个月。服务商提现时不能自行指定提现金额，须按照账户每月实际收入进行提现。
-激励政策 以上平台服务费规则将于北京时间 2024 年 3 月 1 日开始执行。在此之前入驻 KubeSphere Marketplace 的服务商第一年内前 20 万元成交额，平台可不收取该成交额的平台服务费。
+激励政策 以上平台服务费规则将于北京时间 2024 年 9 月 1 日开始执行。在此之前入驻 KubeSphere Marketplace 的服务商第一年内前 20 万元成交额，平台可不收取该成交额的平台服务费。
 备注 仅限线上部分，KubeSphere 私有化部署版不参与该激励。</description>
     </item>
     
